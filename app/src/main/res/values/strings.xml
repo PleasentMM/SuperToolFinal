@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">SuperTime</string>
+
+    <string name="title_time">时间</string>
+    <string name="title_schedule">进度</string>
+    <string name="title_notifications">账本</string>
+    <string name="title_userInfo">更多</string>
+
+
+    <string name="frag1_textView1">时间</string>
+
+    <string name="frag1_textView2">日历</string>
+
+    <string name="frag_bottom">我是有底线的</string>
+
+    <string name="frag1_textView3">计时器</string>
+    <string name="frag1_circletimer_start">开始计时</string>
+    <string name="frag1_circletimer_pause">计时暂停</string>
+    <string name="frag1_circletimer_settime">输入 时间</string>
+    <string name="frag1_circletimer_sethint">设置标题</string>
+
+    <string name="frag1_textView5">设置闹钟</string>
+
+    <string name="frag1_textView4">全屏时钟</string>
+
+
+    <string name="frag2_textView2">页面二</string>
+
+    <string name="frag3_button1">按钮</string>
+
+    <string name="frag4_button1">知乎</string>
+
+    <string name="title_activity_web">知乎</string>
+
+    <string name="title_activity_big_clock">全屏时钟</string>
+
+    <string name="dummy_button">点击全屏</string>
+
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

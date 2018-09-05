@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/time"
+        android:title="@string/title_time" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@mipmap/schedule1"
+        android:title="@string/title_schedule" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@mipmap/cashbook"
+        android:title="@string/title_notifications" />
+
+
+</menu>
