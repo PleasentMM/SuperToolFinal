@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical"
+    android:paddingBottom="65dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/back"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.example.mcc.supertime.MiClockView.MiClockView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:backgroundColor="@color/back"
+            app:darkColor="@color/colorRed"
+            app:lightColor="@color/colorYellow"
+            app:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/back"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="40dp">
+
+            <Button
+                android:id="@+id/countdown_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shape"
+                android:paddingBottom="@dimen/frag1_paddingbottom"
+                android:paddingTop="@dimen/frag1_paddingbottom"
+                android:text="@string/frag1_textView3"
+                android:textColor="@color/back"
+                android:textSize="@dimen/frag1_textview1" />
+
+            <TextView
+                android:layout_width="@dimen/frag1_paddingleft"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/alarm_clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shape"
+                android:paddingBottom="@dimen/frag1_paddingbottom"
+                android:paddingTop="@dimen/frag1_paddingbottom"
+                android:text="@string/frag1_textView5"
+                android:textColor="@color/back"
+                android:textSize="@dimen/frag1_textview1" />
+
+            <TextView
+                android:layout_width="@dimen/frag1_paddingleft"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/big_clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shape"
+                android:paddingBottom="@dimen/frag1_paddingbottom"
+                android:paddingTop="@dimen/frag1_paddingbottom"
+                android:text="@string/frag1_textView4"
+                android:textColor="@color/back"
+                android:textSize="@dimen/frag1_textview1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
